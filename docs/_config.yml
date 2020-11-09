@@ -1,7 +1,7 @@
-title: The CICIDS2017 Analysis Project
+title: The CICIDS Analysis Project
 
 project:
-  repourl: https://github.com/r-dube/CICIDS2017
+  repourl: https://github.com/r-dube/CICIDS
 
 description: > 
   Analyzing the University of New Brunswick CICIDS2017 dataset

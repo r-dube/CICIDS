@@ -1,13 +1,13 @@
 ---
-title: Introduction to the CICIDS2017 analysis project
+title: Introduction to the CICIDS analysis project
 ---
-The CICIDS2017 analysis project seeks to analyze the CICIDS2017 dataset from the University of New Brunswick (UNB). The CICIDS2017 dataset contains information on network traffic flows. The traffic flows are tagged as benign or one of several attacks. The analysis project attempts to understand the characteristics of various techniques that separate benign traffic flows from attack traffic flows.
+The CICIDS analysis project seeks to analyze the CICIDS2017 dataset from the University of New Brunswick (UNB). The CICIDS2017 dataset contains information on network traffic flows. The traffic flows are tagged as benign or one of several attacks. The analysis project attempts to understand the characteristics of various techniques that separate benign traffic flows from attack traffic flows.
 
 The analysis is presented as "blog" posts and interprets the classification techniques implemented in Python.
 
 ### Useful URLs for this project
-* [The Github repository for the project](https://github.com/r-dube/CICIDS2017)
-* [The top page for this blog](https://r-dube.github.io/CICIDS2017/)
+* [The Github repository for the project](https://github.com/r-dube/CICIDS)
+* [The top page for this blog](https://r-dube.github.io/CICIDS/)
 * [The raw data from UNB](https://www.unb.ca/cic/datasets/ids-2017.html)
 
 ### File and directory organization
