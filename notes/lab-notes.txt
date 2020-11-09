@@ -1,0 +1,60 @@
+7/31/2020
+1. KNN with 3 neighbors
+   Accuracy of classifier: 0.9905 F1 score: 0.9919
+
+7/25/2020
+1. Epochs:  30 Learning Rate:  0.004 Batch Size:  4 Accuracy of classifier: 0.9716 F1 score: 0.9743
+   The above results are with decaying learning rate
+   This particular network seems to be at the limit of what it can learn
+2. Epochs:  30 Learning Rate:  0.004 Batch Size:  32 Accuracy of classifier: 0.9772 F1 score: 0.9791
+   Using the Adam scheduler and a decaying learning rate
+3. Epochs:  30 Learning Rate:  0.004 Batch Size:  64 Accuracy of classifier: 0.9807 F1 score: 0.9827
+   Using the Adam scheduler and a decaying learning rate of 0.5 every 5 steps
+4. Epochs:  30 Learning Rate:  0.004 Batch Size:  64 Accuracy of classifier: 0.9811 F1 score: 0.9827
+   Same as three but using ids_perturb to increase the training set
+5. ids_perturb has a bigger impact on on logistic than on fcnn
+   Accuracy of classifier: 0.9448 F1 score: 0.9503
+6. Epochs:  30 Learning Rate:  0.004 Batch Size:  64 Accuracy of classifier: 0.9824 F1 score: 0.9836
+   Changed seed to 42, using ids_perturb, removed shuffling from perturb
+
+7/24/2020
+1. Epochs:  30 Learning Rate:  0.004 Batch Size:  8 Accuracy of classifier: 0.9704 F1 score: 0.9732
+
+7/23/2020
+1. Scaling the input seems to dramatically improve fcnn performance
+2. lr=0.001 100 epochs Accuracy of classifier: 0.9542 F1 score: 0.9565
+3. lr=0.004 30  epochs Accuracy of classifier: 0.9573 F1 score: 0.9597
+
+7/22/2020
+1. Very basic fully-connected neural network (fcnn) with cross-entropy loss works but with Accuracy of classifier: 0.2942 F1 score: 0.0350 on the validation data with 30 epochs, lr=0.001
+2. Probably need a more systematic way of recording results
+
+7/21/2020
+1. For initial setup downsample or upsample each class so that the non BENIGN classes have 8000 entries. Downsample the BENIGN class to have 40000 entries. 
+2. Break up resulting test set (in dataframe) into train, validation, test set. Test is 15% of the total data, validation is 15% of the remaining and the rest is training data
+3. Logistic regression produces an accuracy of 0.9336 and F1 score of 0.9338 on the validation set
+4. Not using the test set till later in the project; all intermediate accuracy calculations will be on the validation data
+
+7/20/2020
+1. The CICIDS 2017 data is from:  https://www.unb.ca/cic/datasets/ids-2017.html
+2. The CICIDS 2017 paper (published in 2018) is described in "Toward Generating a New Intrusion Detection Dataset and Intrusion Traffic Characterization"
+   This paper is available https://www.scitepress.org/Papers/2018/66398/66398.pdf
+3. U+FFDD (https://en.wikipedia.org/wiki/Specials_(Unicode_block)) in Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv. Likely file will need to be cleaned to remove this character.
+4. Fields 'Flow Bytes/s' : 'X15', ' Flow Packets/s' : 'X16' seem to have nans, infinity in them. These columns are candidates for dropping from the data set. The CICIDS2017 paper does not use these two fields for anything.
+5. The CICIDS2017 paper combines the three different types of "Web Attack" into one class in its summary.
+6. Histogram of classes
+   'BENIGN' : 2273097
+   'FTP-Patator' : 7938
+   'SSH-Patator' : 5897
+   'DoS slowloris' : 5796
+   'DoS Slowhttptest': 5499
+   'DoS Hulk' : 231073 (maximum of non-benign)
+   'DoS GoldenEye' : 10293
+   'Heartbleed' : 11
+   'Web Attack  Brute Force' : 1507
+   'Web Attack  XSS' : 652
+   'Web Attack  Sql Injection' : 21
+   'Infiltration': 36
+   'Bot' : 1966
+   'PortScan' : 158930 
+   'DDoS' : 128027
