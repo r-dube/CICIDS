@@ -4,7 +4,7 @@ title: Using neural networks
 We attempt to beat the baseline classification accuracy of logistic regression with a neural network-based classifier.
 
 ### Network design
-We use a simple fully-connected neural network with one hidden layer. The hidden layer is the same size as the input layer. In turn, the input layer has one node for each feature retained in the processed data [^data1]. The number of output nodes is the same as the number of classes. Cross-entropy loss is used as the loss function to guide backpropagation [^colab2].
+We use a simple fully-connected neural network with one hidden layer. The hidden layer is the same size as the input layer. In turn, the input layer has one node for each feature retained in the processed data ([^data1]). The number of output nodes is the same as the number of classes. Cross-entropy loss is used as the loss function to guide backpropagation ([^colab2]).
 
 The network is coded using Python's Pytorch.
 
