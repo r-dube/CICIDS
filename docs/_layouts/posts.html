@@ -24,6 +24,7 @@ layout: default
             {%- if forloop.last == false %}, {% endif -%}
         {% endfor %}
       {%- endif -%}</p>
+    {% include mathjax.html %}
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
@@ -34,7 +35,5 @@ layout: default
     {%- include disqus_comments.html -%}
   {%- endif -%}
   
-  {% include mathjax.html %}
-
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
