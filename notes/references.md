@@ -4,5 +4,6 @@
 [^notes2]: https://github.com/r-dube/CICIDS/blob/main/notes/lab-notes.txt
 [^colab1]: https://github.com/r-dube/CICIDS/blob/main/cicids_data.ipynb
 [^colab2]: https://github.com/r-dube/CICIDS/blob/main/cicids_classifiers.ipynb
+[^colab3]: https://github.com/r-dube/CICIDS/blob/main/cicids_knn.ipynb
 [^scripts1]: https://github.com/r-dube/CICIDS/blob/main/scripts/ids_utils.py
 [^data1]: https://github.com/r-dube/CICIDS/blob/main/MachineLearningCVE/processed/bal-cicids2017.csv
