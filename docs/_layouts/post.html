@@ -24,7 +24,9 @@ layout: default
             {%- if forloop.last == false %}, {% endif -%}
         {% endfor %}
       {%- endif -%}</p>
-    {% include mathjax.html %}
+    {% if page.mathjax != false %}
+      {% include mathjax.html %}
+    {% endif %}
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">

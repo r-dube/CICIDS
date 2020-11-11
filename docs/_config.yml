@@ -8,7 +8,7 @@ description: >
 
 show_excerpts: true # set to true to show excerpts on the homepage
 
-# theme: minima
+# baseurl: "/CICIDS"
+# url: "https://r-dube.github.io"
 
-# Build settings
-markdown: kramdown
+theme: minima
