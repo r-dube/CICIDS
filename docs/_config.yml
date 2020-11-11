@@ -8,5 +8,4 @@ description: >
 
 show_excerpts: true # set to true to show excerpts on the homepage
 
-theme: minimal-mistakes-jekyll
-# theme: minima
+theme: minima
