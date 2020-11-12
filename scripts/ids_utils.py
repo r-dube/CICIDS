@@ -11,16 +11,18 @@ import pandas as pd
 # Some global variables to drive the script
 # The indir should match the location of the data
 # The outdir should be the desired location of the output
-indir = '/Users/rdube/Repos/CICIDS2017/MachineLearningCVE/raw/'
-outdir = '/Users/rdube/Repos/CICIDS2017/MachineLearningCVE/processed/'
+indir = '/Users/rdube/Repos/CICIDS/MachineLearningCVE/raw/'
+outdir = '/Users/rdube/Repos/CICIDS/MachineLearningCVE/processed/'
 combined_data='cicids2017.csv'
 balanced_data='bal-cicids2017.csv'
+small_data='small-cicids2017.csv'
 
 # Uncomment for testing the process of combining data
 # Balancing is not tested
-# indir = '/Users/rdube/Repos/CICIDS2017/MachineLearningCVE/test/'
-# outdir = '/Users/rdube/Repos/CICIDS2017/MachineLearningCVE/processed/'
+# indir = '/Users/rdube/Repos/CICIDS/MachineLearningCVE/test/'
+# outdir = '/Users/rdube/Repos/CICIDS/MachineLearningCVE/processed/'
 # combined_data='test-cicids2017.csv'
+# small_data='test-small-cicids2017.csv'
 
 # Column name mapping from original data to compact form
 # All the X** are features and the YY is the label
@@ -207,6 +209,24 @@ def ids_balance():
     # export to csv
     df_sampled.to_csv(outdir + balanced_data, index=False)
 
+def ids_small_classes():
+    """
+    Extract all rows for the smallest 9 of 12 attack classes
+    Input:
+        None
+    Returns:
+        None
+
+    """
+    df = pd.read_csv(outdir + combined_data, delimiter=',')
+
+    df = df[(df.YY > 0) & (df.YY < 11) & (df.YY != 5)]
+
+    print (df.YY.value_counts())
+
+    # export to csv
+    df.to_csv(outdir + small_data, index=False)
+
 def ids_load_df_from_csv(dir, file):
     """
     Load dataframe from csv file
@@ -327,3 +347,6 @@ pd.set_option('display.max_columns', 500)
 # uncomment to create a class-balanaced version of the data
 # only works for raw (not test) data
 # ids_balance ()
+
+# uncomment to create a ten-class verstion of the data
+# ids_small_classes()

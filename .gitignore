@@ -3,6 +3,6 @@ MachineLearningCVE/.DS_Store
 MachineLearningCVE/raw/
 MachineLearningCVE/processed/cicids2017.csv
 MachineLearningCVE/processed/combined.csv
-MachineLearningCVE/processed/test-cicids2017.csv
+MachineLearningCVE/processed/test*
 __pycache__/
 scripts/__pycache__/
