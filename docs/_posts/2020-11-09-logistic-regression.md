@@ -17,6 +17,6 @@ Given the experience above, we choose 92% as the baseline accuracy that other cl
 
 
 ### References
-[^data1]: https://github.com/r-dube/CICIDS/blob/main/MachineLearningCVE/processed/bal-cicids2017.csv
-[^colab1]: https://github.com/r-dube/CICIDS/blob/main/cicids_data.ipynb
-[^colab2]: https://github.com/r-dube/CICIDS/blob/main/cicids_classifiers.ipynb
+[^data1]: [Processed data](https://github.com/r-dube/CICIDS/blob/main/MachineLearningCVE/processed/bal-cicids2017.csv)
+[^colab1]: [Data processing code on Colab](https://github.com/r-dube/CICIDS/blob/main/cicids_data.ipynb)
+[^colab2]: [Logistic, neural networks, KNN code on Colab](https://github.com/r-dube/CICIDS/blob/main/cicids_classifiers.ipynb)
