@@ -21,6 +21,8 @@ The analysis is presented as "blog" posts and interprets the classification tech
    * The Python code for this project was initially developed as scripts that run on a local machine. This directory contains those scripts. The scripts will continue to be maintained.
 1. admin/
    * Scripts and guidelines for administering the Github repository.
+1. LICENSE
+   * This is license under which all the work in the CICIDS analysis project is made available.
 1. README.md
    * This is the top-level markdown file that describes the project. Since all documentation is being maintained as blog posts, the file points to the blog.
 1. *.ipynb files

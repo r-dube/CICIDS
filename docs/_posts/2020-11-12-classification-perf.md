@@ -8,7 +8,7 @@ We use two measures for classification performance in this project: accuracy and
 Multi-class accuracy is the primary measure of performance used in this project. We generate and record both multi-class accuracy and two-class accuracy. The former metric measures classification correctness across the "BENIGN" and the 12 attack classes. The latter metric lumps all the attack classes into one ([^colab2]).
 
 ### F1-score
-We also record the F1-score for all experiments. The F1-score is a composite of the true positives (TP), false positives (FP), and false negatives (FN): $F1_{score} = \frac {TP} {TP + 0.5(FP + FN)}$. Such a score can be a better measure of performance than accuracy when we want to explicitly account for classification errors.
+We also record the F1-score for all experiments. The F1-score is a composite of the true positives (TP), false positives (FP), and false negatives (FN): ${F1}_{score} = \frac {TP} {TP + 0.5(FP + FN)}$. Such a score can be a better measure of performance than accuracy when we want to explicitly account for classification errors.
 
 Note that both multi-class and two-class scores are generated.
 
