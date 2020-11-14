@@ -1,7 +1,7 @@
 ---
-title: Exploring the data using Gaussian Mixture Models
+title: Exploring the data using gaussian mixture models
 ---
-We use Gaussian Mixture Models (GMMs) to improve our understanding of the attack class data.
+We use gaussian mixture models (GMMs) to improve our understanding of the attack class data.
 
 ### Creating a new dataset
 From ([^notes1]), we know that 9 of the 12 attack classes have a small number of data representatives (between 11 and 10293). We create a reduced dataset that only contains the data corresponding to the 9 low-volume classes. Note that the BENIGN, DoS Hulk, PortScan, and DDOS data is not in the reduced dataset ([^data2]).
@@ -22,7 +22,7 @@ We plot the BIC values for each GMM run. The x-axis represents the number of com
 
 ![BIC Plot](/CICIDS/assets/images/2020-11-13-gmm-bic.png)
 
-One of the attack classes (Web Attack) is made up of three sub-classes that had independent labels in the original data (Web Attack - Brute Force, Web Attack - XSS, Web Attack - Sql Injection) but were discussed as one category in ([^unb1]). Even accounting for these as separate classes do not explain the lack of a sharp elbow (at 10).
+One of the attack classes (Web Attack) is made up of three sub-classes that had independent labels in the original data (Web Attack - Brute Force, Web Attack - XSS, Web Attack - Sql Injection) but were discussed as one category in ([^unb1]). Even accounting for these as separate classes does not explain the lack of a sharp elbow (at 10).
 
 We conclude that either GMM does not represent the data well, or the number of clusters in the data is greater than the number of attack classes.
 

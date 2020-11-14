@@ -1,5 +1,5 @@
 ---
-title: Developing a baseline
+title: Developing a baseline with logistic regression
 ---
 We use logistic regression as the first classification technique on the processed data to develop a baseline for classification results.
 
