@@ -20,7 +20,7 @@ Usually, higher values of the BIC imply a better model. Hower for BIC values ret
 
 We plot the BIC values for each GMM run. The x-axis represents the number of components that GMM is asked to fit the data into, and the y-axis represents the BIC. We see from the plot in ([^colab4]) that BIC values have an "elbow" somewhere between 7 and 15 components, suggesting that the number of classes is in the range [7, 15]. The number of classes actually represented in the data is 9, within the scope of the elbow. However, there isn't a clear and sharp leveling-off of the BIC at 9 components.
 
-![BIC Plot](/images/2020-11-13-gmm-bic.png)
+![BIC Plot]({{ project.dir }}/assets/images/2020-11-13-gmm-bic.png)
 
 One of the attack classes (Web Attack) is made up of three sub-classes that had independent labels in the original data (Web Attack - Brute Force, Web Attack - XSS, Web Attack - Sql Injection) but were discussed as one category in ([^unb1]). Even accounting for these as separate classes do not explain the lack of a sharp elbow (at 10).
 
