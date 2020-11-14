@@ -2,6 +2,7 @@ title: The CICIDS Analysis Project
 
 project:
   repourl: https://github.com/r-dube/CICIDS
+  imgurl: https://github.com/r-dube/CICIDS/docs/_images
 
 description: > 
   Analyzing the University of New Brunswick CICIDS2017 dataset
