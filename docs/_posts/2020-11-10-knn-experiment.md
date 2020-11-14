@@ -1,5 +1,5 @@
 ---
-title: Experimenting with KNN
+title: Experimenting with K Nearest Neighbors
 ---
 We attempt classification using K-nearest-neighbors (KNN) to increase the diversity of techniques used with the dataset.
 
