@@ -1,7 +1,7 @@
 ---
-title: Introduction to the CICIDS analysis project
+title: Introduction to the IDS analysis project
 ---
-The CICIDS analysis project seeks to analyze the CICIDS2017 dataset from the University of New Brunswick (UNB). The CICIDS2017 dataset contains information on network traffic flows. The traffic flows are tagged as benign or one of several attacks. The analysis project attempts to understand the characteristics of various techniques that separate benign traffic flows from attack traffic flows.
+The IDS analysis project seeks to analyze the CICIDS2017 dataset from the University of New Brunswick (UNB). The CICIDS2017 dataset contains information on network traffic flows. The traffic flows are tagged as benign or one of several attacks. The analysis project attempts to understand the characteristics of various techniques that separate benign traffic flows from attack traffic flows.
 
 The analysis is presented as "blog" posts and interprets the classification techniques implemented in Python.
 
@@ -22,7 +22,7 @@ The analysis is presented as "blog" posts and interprets the classification tech
 1. admin/
    * Scripts and guidelines for administering the Github repository.
 1. LICENSE
-   * This is license under which all the work in the CICIDS analysis project is made available.
+   * This is license under which all the work in the IDS analysis project is made available.
 1. README.md
    * This is the top-level markdown file that describes the project. Since all documentation is being maintained as blog posts, the file points to the blog.
 1. *.ipynb files
