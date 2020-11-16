@@ -29,5 +29,5 @@ We conclude that either GMM does not represent the data well, or the number of c
 ### References
 [^notes1]: [Feature descriptions](https://github.com/r-dube/CICIDS/blob/main/notes/cicflowmeter-2020-ReadMe.txt)
 [^data2]: [Reduced attack data](https://github.com/r-dube/CICIDS/blob/main/MachineLearningCVE/processed/small-cicids2017.csv)
-[^colab4]: [GMM experimentation on Colab](https://github.com/r-dube/CICIDS/blob/main/cicids_gmm.ipynb)
+[^colab4]: [GMM experimentation on Colab](https://github.com/r-dube/CICIDS/blob/main/ids_gmm.ipynb)
 [^unb1]: [Toward Generating a New Intrusion Detection Dataset and Intrusion Traffic Characterization](https://www.scitepress.org/Papers/2018/66398/66398.pdf)

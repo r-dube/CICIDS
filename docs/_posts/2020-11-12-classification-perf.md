@@ -23,4 +23,4 @@ All classification performance thus far has been reported on the validation set.
 We generate a confusion matrix - that records the pairwise classification errors - on the validation set in some of the experiments. The confusion matrix gives us a sense of the classes that perform the worst with a classification technique. Currently, the confusion matrix is used as a sanity check rather than as a performance measure.
 
 ### References
-[^colab2]: [Logistic, neural networks, KNN code for Colab](https://github.com/r-dube/CICIDS/blob/main/cicids_classifiers.ipynb)
+[^colab2]: [Logistic, neural networks, KNN code for Colab](https://github.com/r-dube/CICIDS/blob/main/ids_classifiers.ipynb)
