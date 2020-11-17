@@ -16,9 +16,11 @@ outdir = '/Users/rdube/Repos/CICIDS/MachineLearningCVE/processed/'
 combined_data='cicids2017.csv'
 balanced_data='bal-cicids2017.csv'
 small_data='small-cicids2017.csv'
+twoclass_data='twoclass-cicids2017.csv'
 
 # Uncomment for testing the process of combining data
 # Balancing is not tested
+# Twoclass data is not tested
 # indir = '/Users/rdube/Repos/CICIDS/MachineLearningCVE/test/'
 # outdir = '/Users/rdube/Repos/CICIDS/MachineLearningCVE/processed/'
 # combined_data='test-cicids2017.csv'
@@ -227,6 +229,32 @@ def ids_small_classes():
     # export to csv
     df.to_csv(outdir + small_data, index=False)
 
+def ids_two_classes():
+    """
+    Create a small data set with just two classes: BENIGN and PortScan
+    Input:
+        None
+    Returns:
+        None
+
+    """
+    from sklearn.utils import resample
+    n = 8000
+
+    df = pd.read_csv(outdir + combined_data, delimiter=',')
+
+    df0 = df[df.YY == 0]
+    df11 = df[df.YY == 11]
+
+    df0 = resample(df0, replace=False, n_samples=n, random_state=123)
+    df11 = resample(df11, replace=False, n_samples=n, random_state=123)
+    df_sampled = pd.concat([df0, df11])
+
+    print (df_sampled.YY.value_counts())
+
+    # export to csv
+    df_sampled.to_csv(outdir + twoclass_data, index=False)
+
 def ids_load_df_from_csv(dir, file):
     """
     Load dataframe from csv file
@@ -348,5 +376,9 @@ pd.set_option('display.max_columns', 500)
 # only works for raw (not test) data
 # ids_balance ()
 
-# uncomment to create a ten-class verstion of the data
+# uncomment to create a nine-class version of the data
+# the less frequent attack classes only
 # ids_small_classes()
+
+# uncomment to create a two-class version of the data
+# ids_two_classes()
