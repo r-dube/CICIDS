@@ -6,6 +6,7 @@
 * [^colab2]: [Logistic, neural networks, KNN code for Colab](https://github.com/r-dube/CICIDS/blob/main/ids_classifiers.ipynb)
 * [^colab3]: [KNN experimentation on Colab](https://github.com/r-dube/CICIDS/blob/main/ids_knn.ipynb)
 * [^colab4]: [GMM experimentation on Colab](https://github.com/r-dube/CICIDS/blob/main/ids_gmm.ipynb)
+* [^colab5]: [PCA experimentation on Colab](https://github.com/r-dube/CICIDS/blob/main/ids_pca.ipynb)
 * [^scripts1]: [Data processing script for local machine](https://github.com/r-dube/CICIDS/blob/main/scripts/ids_utils.py)
 * [^data1]: [Processed data](https://github.com/r-dube/CICIDS/blob/main/MachineLearningCVE/processed/bal-cicids2017.csv)
 * [^data2]: [Reduced attack data](https://github.com/r-dube/CICIDS/blob/main/MachineLearningCVE/processed/small-cicids2017.csv)
