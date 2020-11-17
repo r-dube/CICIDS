@@ -1,5 +1,5 @@
 ---
-title: Visualizing principal component data
+title: Visualizing the principal components
 ---
 We use principal component analysis (PCA) to extract components and attempt visualizing the data.
 
