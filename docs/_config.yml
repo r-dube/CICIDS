@@ -8,4 +8,6 @@ description: >
 
 show_excerpts: true # set to true to show excerpts on the homepage
 
+github_username: r-dube
+
 theme: minima
