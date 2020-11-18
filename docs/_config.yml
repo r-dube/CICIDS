@@ -1,8 +1,5 @@
 title: The IDS Analysis Project
 
-project:
-  repourl: https://github.com/r-dube/CICIDS
-
 description: Analyzing the CICIDS2017 dataset
 
 show_excerpts: true 
@@ -11,6 +8,7 @@ show_excerpts: true
 github_username: r-dube
 rss: rss
 
+# For comments on posts
 url: https://github.com/r-dube/CICIDS
 disqus:
     shortname: cicids
@@ -18,6 +16,6 @@ disqus:
 # Github pages Jekyll theme
 theme: minima
 
-# for RSS
+# For the RSS button and feed.xml
 plugins:
  - jekyll-feed
