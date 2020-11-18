@@ -8,5 +8,6 @@ description: Analyzing the CICIDS2017 dataset
 show_excerpts: true 
 
 github_username: r-dube
+rss: rss
 
 theme: minima
