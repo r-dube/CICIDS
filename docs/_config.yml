@@ -11,3 +11,6 @@ github_username: r-dube
 rss: rss
 
 theme: minima
+
+plugins:
+ - jekyll-feed
