@@ -7,10 +7,17 @@ description: Analyzing the CICIDS2017 dataset
 
 show_excerpts: true 
 
+# For the footer of blog pages
 github_username: r-dube
 rss: rss
 
+url: https://github.com/r-dube/CICIDS
+disqus:
+    shortname: cicids
+
+# Github pages Jekyll theme
 theme: minima
 
+# for RSS
 plugins:
  - jekyll-feed
