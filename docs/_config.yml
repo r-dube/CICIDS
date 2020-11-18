@@ -3,10 +3,9 @@ title: The IDS Analysis Project
 project:
   repourl: https://github.com/r-dube/CICIDS
 
-description: > 
-  Analyzing the University of New Brunswick CICIDS2017 dataset
+description: Analyzing the CICIDS2017 dataset
 
-show_excerpts: true # set to true to show excerpts on the homepage
+show_excerpts: true 
 
 github_username: r-dube
 
