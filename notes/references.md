@@ -8,7 +8,7 @@
 * [^colab4]: [GMM experimentation on Colab](https://github.com/r-dube/CICIDS/blob/main/ids_gmm.ipynb)
 * [^colab5]: [PCA experimentation on Colab](https://github.com/r-dube/CICIDS/blob/main/ids_pca.ipynb)
 * [^colab6]: [Experimentation wth two classes on Colab](https://github.com/r-dube/CICIDS/blob/main/ids_twoclass.ipynb)
-* [^scripts1]: [Data processing script for local machine](https://github.com/r-dube/CICIDS/blob/main/scripts/ids_utils.py)
+* [^scripts1]: [Data processing script for a local machine](https://github.com/r-dube/CICIDS/blob/main/scripts/ids_utils.py)
 * [^data1]: [Processed data](https://github.com/r-dube/CICIDS/blob/main/MachineLearningCVE/processed/bal-cicids2017.csv)
 * [^data2]: [Reduced attack data](https://github.com/r-dube/CICIDS/blob/main/MachineLearningCVE/processed/small-cicids2017.csv)
 * [^data3]: [Two-class attack data](https://github.com/r-dube/CICIDS/blob/main/MachineLearningCVE/processed/twoclass-cicids2017.csv)
