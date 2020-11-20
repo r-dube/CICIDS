@@ -22,6 +22,6 @@ We know that portscan traffic flows are not distinguishable from BENIGN traffic 
 ### References
 [^wiki1]: [Isolation forest](https://en.wikipedia.org/wiki/Isolation_forest)
 [^scikit1]: [Novelty and outlier detection](https://scikit-learn.org/stable/modules/outlier_detection.html#isolation-forest)
-[^data4]: [Two-class attack data](https://github.com/r-dube/CICIDS/blob/main/MachineLearningCVE/processed/heartbleed-cicids2017.csv)
-[^colab7]: [Experimentation with two classes on Colab](https://github.com/r-dube/CICIDS/blob/main/ids_heartbleed.ipynb)
+[^data4]: [Heartbleed attack data](https://github.com/r-dube/CICIDS/blob/main/MachineLearningCVE/processed/heartbleed-cicids2017.csv)
+[^colab7]: [Experimentation with isolation forest on Colab](https://github.com/r-dube/CICIDS/blob/main/ids_heartbleed.ipynb)
 [^data3]: [Two-class attack data](https://github.com/r-dube/CICIDS/blob/main/MachineLearningCVE/processed/twoclass-cicids2017.csv)
