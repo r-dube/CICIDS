@@ -1,5 +1,5 @@
 ---
-title: Anomaly detection with isolation forests
+title: Anomaly detection with isolation forest
 ---
 In this experiment, we use an isolation forest to detect heartbleed traffic flows.
 
