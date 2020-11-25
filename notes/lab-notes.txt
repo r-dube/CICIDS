@@ -1,3 +1,11 @@
+11/25/2020
+1. Reimplemented FCNN with Keras and Tensorflow
+2. Optimizer = Adam, Loss function = categorical cross entropy, learning rate = 0.0001, batch size = 8, epochs = 10
+3. Accuracy
+Epoch 10/10
+12283/12283 [==============================] - 16s 1ms/step - loss: 11.3167 - categorical_accuracy: 0.2363 - val_loss: 11.3728 - val_categorical_accuracy: 0.2347
+
+
 11/10/2020
 1. KNN with different neighbors and p (in minkowski distance)
       run  n  p       acc        f1
