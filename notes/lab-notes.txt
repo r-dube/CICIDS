@@ -1,3 +1,14 @@
+11/26/2020
+1. To use sparse_categorical_crossentropy as the loss function one has to use softmax as the activation function in the output layer.
+   Previously I was using linear activation (to mirror PyTorch).
+2. Adam with learning rate = 0.02, batch size = 64 I
+   Epoch 20/20
+   1536/1536 - 2s - loss: 0.0690 - accuracy: 0.9773 - val_loss: 0.0811 - val_accuracy: 0.9743
+3. After puttung a learning rate scheduler in
+   Epoch 00010: LearningRateScheduler reducing learning rate to 0.0039287336132069325.
+   Epoch 10/10
+   1536/1536 - 2s - loss: 0.0797 - accuracy: 0.9740 - val_loss: 0.0836 - val_accuracy: 0.9732
+
 11/25/2020
 1. Reimplemented FCNN with Keras and Tensorflow
 2. Optimizer = Adam, Loss function = categorical cross entropy, learning rate = 0.0001, batch size = 8, epochs = 10
