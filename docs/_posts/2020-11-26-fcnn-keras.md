@@ -19,5 +19,5 @@ Given the experience documented above, we expect to use Keras for future experim
 
 ### References
 [^colab2]: [Logistic, neural networks, KNN code for Colab](https://github.com/r-dube/CICIDS/blob/main/ids_classifiers.ipynb)
-[^colab8]: [NN reimplementation with Keras and TensorFlow](https://github.com/r-dube/CICIDS/blob/main/ids_Keras_tf.ipynb)
+[^colab8]: [NN reimplementation with Keras and TensorFlow](https://github.com/r-dube/CICIDS/blob/main/ids_keras_tf.ipynb)
 [^lizard1]: [Keras - Python Deep Learning Neural Network API](https://deeplizard.com/learn/video/RznKVRTFkBY)
