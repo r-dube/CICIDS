@@ -2,8 +2,16 @@
 1. Reimplemented FCNN with Keras and Tensorflow
 2. Optimizer = Adam, Loss function = categorical cross entropy, learning rate = 0.0001, batch size = 8, epochs = 10
 3. Accuracy
-Epoch 10/10
-12283/12283 [==============================] - 16s 1ms/step - loss: 11.3167 - categorical_accuracy: 0.2363 - val_loss: 11.3728 - val_categorical_accuracy: 0.2347
+   Epoch 10/10
+   12283/12283 [==============================] - 16s 1ms/step - loss: 11.3167 - categorical_accuracy: 0.2363 - val_loss: 11.3728 - val_categorical_accuracy: 0.2347
+4. Accuracy with implementation format from Deeplizard
+   Two hidden layers, learning rate = 0.0001, optimizer (default) = ADAM, crossentropy loss, Relu activation for hidden layers, batch size 10, epochs 30
+   Epoch 30/30
+   9826/9826 - 11s - loss: 1.9481 - accuracy: 0.3141 - val_loss: 1.9193 - val_accuracy: 0.3197
+5. On dropping learning rate to 0.00001
+   Epoch 30/30
+   9826/9826 - 12s - loss: 1.6911 - accuracy: 0.5188 - val_loss: 1.6931 - val_accuracy: 0.5211
+6. Something appears wrong in the implementation of the network as loss decreases but so does accuracy, on a handfull of epochs
 
 
 11/10/2020
