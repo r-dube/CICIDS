@@ -1,4 +1,1 @@
-The CICIDS2017 dataset contains information on network traffic flows. The 
-traffic flows are tagged as benign or one of several attacks. The IDS
-analysis project attempts to understand the characteristics of various techniques 
-that separate the benign traffic flows from attack traffic flows.
+This blog and the associated Github repository discuss data science in information security. Much of the blog is about analyzing the CICIDS2017 traffic flow dataset. However, there are posts on related topics such as machine learning at scale and data science techniques in general.

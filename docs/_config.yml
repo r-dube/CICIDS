@@ -1,6 +1,6 @@
 title: The IDS Analysis Project
 
-description: Analyzing the CICIDS2017 dataset
+description: Data Science in Information Security
 
 show_excerpts: true 
 
@@ -8,9 +8,10 @@ show_excerpts: true
 github_username: r-dube
 rss: rss
 
-# For comments on posts
-# url: https://github.com/r-dube/CICIDS
+# for rss
 url: https://r-dube.github.io
+
+# For comments on posts
 disqus:
     shortname: cicids
 
