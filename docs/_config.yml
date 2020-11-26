@@ -9,7 +9,8 @@ github_username: r-dube
 rss: rss
 
 # For comments on posts
-url: https://github.com/r-dube/CICIDS
+# url: https://github.com/r-dube/CICIDS
+url: https://r-dube.github.io
 disqus:
     shortname: cicids
 
