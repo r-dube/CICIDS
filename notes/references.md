@@ -27,4 +27,4 @@
 * [^ops9]: [Machine Learning using Kubernetes, Arun Gupta, 2019](https://files.gotocon.com/uploads/slides/conference_13/696/original/Machine%20Learning%20Using%20K8s.pdf)
 * [^ops10]: [Machine Learning vital signs, Donal Miner, 2019](https://www.slideshare.net/DonaldMiner/machine-learning-vital-signs)
 * [^ops11]: [How to Monitor Machine Learning Models in real-time, Ted Dunning, 2019](https://www.kdnuggets.com/2019/01/monitor-machine-learning-real-time.html)
-* [^krtf1]: [Using TensorBoard in notebooks](https://colab.research.google.com/github//tensorboard/blob/master/docs/tensorboard_in_notebooks.ipynb)
+* [^krtf1]: [Using TensorBoard in notebooks](https://www.tensorflow.org/tensorboard/tensorboard_in_notebooks)
