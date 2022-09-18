@@ -6,3 +6,5 @@ MachineLearningCVE/processed/combined.csv
 MachineLearningCVE/processed/test*
 __pycache__/
 scripts/__pycache__/
+.ipynb_checkpoints/
+MachineLearningCVE/restart/
