@@ -14,9 +14,10 @@ Documentation on the IDS analysis project is at https://r-dube.github.io/CICIDS/
 **URL:** https://youtu.be/hYf-0nFZw-I
 
 **Title:**  Faulty use of the CIC-IDS 2017 dataset
+**Length:** Approximately 11 minutes 15 seconds
 
 ### Technical Report
-There is a technical report on the project at http://dx.doi.org/10.13140/RG.2.2.25435.64809
+There is a also technical report (preprint) on the project at http://dx.doi.org/10.13140/RG.2.2.25435.64809
 
 **Title:** (Mis)use of the CICIDS 2017 Dataset in Information Security Research
 
